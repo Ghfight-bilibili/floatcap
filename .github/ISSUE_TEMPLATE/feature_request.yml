@@ -1,0 +1,20 @@
+name: 功能建议
+description: 想要的新能力或样式
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 你想要什么
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 使用场景
+      description: 比如看网课、追剧、开会
+  - type: textarea
+    id: more
+    attributes:
+      label: 补充
+      description: 参考截图、其他 App 的做法等

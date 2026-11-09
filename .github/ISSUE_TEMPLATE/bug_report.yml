@@ -1,0 +1,48 @@
+name: 问题反馈
+description: 闪退、没字幕、字幕不同步等
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 请先确认系统是 Android 10 以上、arm64。
+  - type: input
+    id: device
+    attributes:
+      label: 设备与系统
+      placeholder: 例如 一加平板 OPD2404 / Android 16 / ColorOS
+    validations:
+      required: true
+  - type: dropdown
+    id: engine
+    attributes:
+      label: 使用的引擎
+      options:
+        - SenseVoice
+        - Paraformer
+        - 两个都有问题
+  - type: input
+    id: version
+    attributes:
+      label: 浮字版本
+      placeholder: 设置页底部显示的版本号，如 2.1
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: 1. 打开浮字 2. 点开始字幕 3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果 / 实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 诊断日志（可选）
+      description: 应用会把日志写在 `Download/DSH-Go/floatcap-*.txt`，可附上 floatcap-trace 或 floatcap-crash。
+      render: text

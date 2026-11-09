@@ -1,9 +1,8 @@
 .cache/
 .sdk/
 out/
-*.apk
+dist/*.idsig
 *.keystore
 local.properties
 .idea/
 .DS_Store
-dist/

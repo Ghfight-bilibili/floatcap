@@ -6,6 +6,16 @@ Android 10+ 上利用系统的 `AudioPlaybackCapture` 内录其他 App 的播放
 [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) 做实时语音识别，再用悬浮窗显示字幕。
 适合看网课、追剧、看直播、开会时听不清的时候。
 
+## 截图
+
+| 引擎与外观 | 字色与预览 |
+|---|---|
+| ![](docs/images/settings-1.jpg) | ![](docs/images/settings-3.jpg) |
+
+| 动效与识别参数 |
+|---|
+| ![](docs/images/settings-2.jpg) |
+
 ## 功能
 
 - **内录系统声音**：不用外放、不用麦克风，戴耳机也能出字幕
@@ -29,7 +39,7 @@ Android 10+ 上利用系统的 `AudioPlaybackCapture` 内录其他 App 的播放
 
 ## 安装
 
-1. 到 [Releases](../../releases) 下载 `FloatCap-*.apk`
+1. 下载 [dist/FloatCap-2.1.apk](dist/FloatCap-2.1.apk)（12 MB），或到 [Releases](../../releases) 找最新版
 2. 安装后打开，按引导授权
 3. 选引擎 → 下载模型 → 开始字幕 → 选「整个屏幕」
 4. 切到视频 App，字幕会浮在画面上
