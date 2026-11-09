@@ -1,0 +1,9 @@
+.cache/
+.sdk/
+out/
+*.apk
+*.keystore
+local.properties
+.idea/
+.DS_Store
+dist/

@@ -1,0 +1,28 @@
+浮字 FloatCap
+Copyright 2026 FloatCap contributors
+
+本作品包含第三方组件：
+
+1. sherpa-onnx (https://github.com/k2-fsa/sherpa-onnx)
+   Apache License 2.0
+   以预编译 AAR 形式由构建脚本下载，不随源码分发。
+
+2. ONNX Runtime (https://github.com/microsoft/onnxruntime)
+   MIT License，由 sherpa-onnx 的 AAR 携带。
+
+3. SenseVoice 模型（阿里 FunASR）
+   https://github.com/modelscope/FunASR
+   模型权重适用 FunASR Model Open Source License Agreement v1.1，
+   由用户在 App 首次运行时自行下载，不随源码或 APK 分发。
+
+4. Paraformer 流式双语模型
+   https://github.com/modelscope/FunASR
+   模型由用户在 App 首次运行时自行下载，不随源码或 APK 分发。
+
+5. Silero VAD (https://github.com/snakers4/silero-vad)
+   MIT License，由用户在 App 首次运行时下载。
+
+6. Kotlin 标准库 (https://kotlinlang.org)
+   Apache License 2.0。
+
+App 不包含上述模型权重；模型只在用户设备上按需下载。
